@@ -15,9 +15,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iravakilova/goit-js-hw-08/issues"
-=======
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
->>>>>>> parent of 595e164 (Update package.json)
   },
   "dependencies": {
     "@types/lodash.throttle": "^4.1.7",
