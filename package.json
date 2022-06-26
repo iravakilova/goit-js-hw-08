@@ -5,17 +5,17 @@
   "homepage": "https://iravakilova.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url/goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://iravakilova.github.io/goit-js-hw-08/src/index.html"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Iryna Vakilova <iravakilova@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://iravakilova.github.io/goit-js-hw-08/src/index.html"
   },
   "dependencies": {
     "@types/lodash.throttle": "^4.1.7",
