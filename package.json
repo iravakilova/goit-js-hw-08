@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://iravakilova.github.io/goit-js-hw-08",
+  "homepage": "https://github.com/iravakilova/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url/goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://iravakilova.github.io/goit-js-hw-08/src/index.html"
+    "url": "git+https://github.com/iravakilova/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "Iryna Vakilova <iravakilova@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://iravakilova.github.io/goit-js-hw-08/src/index.html"
+    "url": "https://github.com/iravakilova/goit-js-hw-08/issues"
   },
   "dependencies": {
     "@types/lodash.throttle": "^4.1.7",
