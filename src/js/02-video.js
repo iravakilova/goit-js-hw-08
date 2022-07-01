@@ -5,9 +5,14 @@ import throttle from 'lodash.throttle';
 
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
+const time = "videoplayer-current-time";
 
-player.on('timeupdate', throttle(function (data) {
-    localStorage.setItem('videoplayer-current-time', data.seconds);
-}, 1000));
+const onPlay = function (data) {
+localStorage.setItem(time, data.seconds);
+};
 
-player.setCurrentTime(localStorage.getItem('videoplayer-current-time')).then().catch();
+player.on('timeupdate', throttle(onPlay, 1000));
+
+if (localStorage.getItem(time)) {
+    player.setCurrentTime(localStorage.getItem(time));
+   }
